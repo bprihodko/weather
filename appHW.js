@@ -52,7 +52,7 @@ class Weather {
 }
 
 let city = prompt('Where do you live, bro?', 'Dnipro');
-fetch("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=5d066958a60d315387d9492393935c19")
+fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=5d066958a60d315387d9492393935c19")
     .then(response => response.json())
     .then(data => {
         new Weather(data.dt, data.sys.sunrise, data.dt, data.main.humidity, data.main.pressure,
