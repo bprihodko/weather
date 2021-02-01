@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+
+}
+ .indicators {
+    background-color:#0d5b9b;
+    color:white;
+    text-align: start;
+    width: 550px;
+    height: 400px;
+
+    margin: 50px auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 21px 25px;
+    
+}
+.col-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .sunrise-data,
+  .humidity,
+  .pressure,
+  .speed,
+  .feels-like,
+  .sunset    {
+      color: white;
+      font-size: 20px;
+      padding: 5px;
+  }
+  .data {
+     color: white; 
+     font-size: 30px;
+  }
+  .time {
+      color: white; 
+     font-size: 70px; 
+     padding: 20px;
+  }
+  .temp, .description {
+      font-weight: bold;
+      text-align: center;
+      color: white; 
+     font-size: 32px; 
+     padding: 10px 10px;
+  }
+  span {
+       font-size: 50px; 
+       padding-right: 20px;
+  }
+  .sunrise, .sunset {
+      display: flex;
+      justify-content:start;
+      padding: 10px;
+}
+.data-sunset{
+    margin-right: 12px;
+}
+  .pressure {
+      padding: 5px;
+      padding-bottom: 20px;
+  }
+   .feels-like {
+       text-align: center;
+       padding: 0px;
+   }
+
+   .icon img {
+       width: 180px;
+       height: 150px;
+        text-align: center;
+   }
